@@ -110,7 +110,7 @@ export default class App extends Component {
     return (
       <>
         <Searchbar onSubmit={this.handleSubmit} />
-        <Container maxWidth="xl" sx={{ mt: 2 }}>
+        <Container maxWidth="lg" sx={{ mt: 2 }}>
           {isNotEmpty && <ImageGallery hits={hits} />}
           {isLoading ? (
             <Loader />

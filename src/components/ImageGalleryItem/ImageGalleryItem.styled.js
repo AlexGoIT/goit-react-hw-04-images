@@ -9,7 +9,7 @@ export const ImageItem = styled.li`
 
 export const Image = styled.img`
   width: 100%;
-  height: 260px;
+  height: 160px;
   object-fit: cover;
   background: linear-gradient(
     0deg,
