@@ -37,7 +37,6 @@ const App = () => {
         }
 
         setHits(hits => [...hits, ...response.hits]);
-        setPage(page);
 
         if (page === 1) {
           Notify.success(`Hooray! We found ${response.totalHits} images.`);
@@ -63,6 +62,7 @@ const App = () => {
     fetchImages();
   }, [searchQuery, page]);
 
+  // New search query
   const handleSubmit = evt => {
     evt.preventDefault();
 
