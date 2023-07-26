@@ -2,7 +2,6 @@ import { Component } from 'react';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import Container from '@mui/material/Container';
 
-// import { Container } from './App.styled';
 import Searchbar from './Searchbar';
 import ImageGallery from './ImageGallery';
 import Loader from './Loader';
