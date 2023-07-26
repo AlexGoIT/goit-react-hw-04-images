@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchImages = async () => {
-      if (searchQuery === '') {
+      if (!searchQuery) {
         return;
       }
 
