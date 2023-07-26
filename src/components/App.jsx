@@ -2,7 +2,6 @@ import { Component } from 'react';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import Container from '@mui/material/Container';
 
-// import { Container } from './App.styled';
 import Searchbar from './Searchbar';
 import ImageGallery from './ImageGallery';
 import Loader from './Loader';
@@ -10,7 +9,7 @@ import Button from './Button';
 
 import getImages from 'services/api';
 
-document.title = 'HW-3 Finder';
+document.title = 'HW-4 Images';
 
 export default class App extends Component {
   state = {
