@@ -13,7 +13,14 @@ export const Overlay = styled.div`
   z-index: 1200;
 `;
 
-export const ModalContainer = styled.div``;
+export const ModalContainer = styled.div`
+  border-radius: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 247, 127, 1) 0%,
+    rgba(109, 156, 255, 1) 100%
+  );
+`;
 
 export const Image = styled.img`
   max-width: calc(100vw - 48px);
