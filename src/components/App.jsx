@@ -10,7 +10,7 @@ import Button from './Button';
 
 import getImages from 'services/api';
 
-document.title = 'HW-4 Images';
+document.title = 'HW-3 Finder';
 
 export default class App extends Component {
   state = {
